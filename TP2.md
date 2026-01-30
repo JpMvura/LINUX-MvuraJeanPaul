@@ -73,7 +73,9 @@ La gateway (passerelle par défaut) est le routeur du réseau local (ex: 192.168
 Elle sert donc de “sortie” du réseau local Ingésup vers d’autres réseaux et permet l’accès à Internet (souvent via du NAT).
 
 
-#### A. Modification d'adresse IP - Pt. 1
+## 2. Modifications des informations
+
+### A. Modification d'adresse IP - Pt. 1
 
 **Calcul première/dernière IP disponible :**
 - Réseau : `192.168.1.0/24` 
@@ -89,7 +91,7 @@ Elle sert donc de “sortie” du réseau local Ingésup vers d’autres réseau
 
 ![alt text](image-5.png)
 
-#### B. nmap - Scanner réseau pour IP libre
+### B. nmap - Scanner réseau pour IP libre
 
 **Scan réseau WiFi (Ping Scan) :**
 
@@ -109,7 +111,7 @@ Explication nmap :
 
     Permet de voir quelles IPs sont occupées pour choisir une libre
 
-#### C .Modification d'adresse IP - Pt. 2
+### C .Modification d'adresse IP - Pt. 2
 
 Changement vers IP libre + gateway incorrecte :
 
